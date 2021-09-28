@@ -89,7 +89,7 @@ textarea {
   margin-bottom: 50px;
 }
 /* Header */
-.site-header {
+.page-header {
   border-bottom: 1px solid var(--primary-border-color);
 }
 .logo {
