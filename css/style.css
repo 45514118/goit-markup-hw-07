@@ -417,7 +417,7 @@ textarea {
 .about-us-item,
 .what-we-do-item,
 .our-team-card,
-.partners-item {
+.partners__item {
   margin-right: 30px;
 }
 .about-us-item {
@@ -426,7 +426,7 @@ textarea {
 .about-us-item:last-child,
 .what-we-do-item:last-child,
 .our-team-card:last-child,
-.partners-item:last-child {
+.partners__item:last-child {
   margin-right: 0;
 }
 .about-us-block {
