@@ -414,22 +414,22 @@ textarea {
   background: var(--accent-button-color);
 }
 /* About Us */
-.about-us-item,
-.what-we-do-item,
-.our-team-card,
+.about-us__item,
+.what-we-do__item,
+.team-card,
 .partners__item {
   margin-right: 30px;
 }
-.about-us-item {
+.about-us__item {
   width: 270px;
 }
-.about-us-item:last-child,
-.what-we-do-item:last-child,
-.our-team-card:last-child,
+.about-us__item:last-child,
+.what-we-do__item:last-child,
+.team-card:last-child,
 .partners__item:last-child {
   margin-right: 0;
 }
-.about-us-block {
+.about-us__group {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -438,23 +438,23 @@ textarea {
   background-color: var(--tertiary-bg-color);
   margin-bottom: 30px;
 }
-.about-us-title {
+.about-us__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-.about-us-description {
+.about-us__description {
   font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-text-color);
 }
 /* What We Do */
-.what-we-do-item {
+.what-we-do__item {
   position: relative;
 }
-.what-we-do-title {
+.what-we-do__title {
   position: absolute;
   bottom: 0;
   left: 0;
