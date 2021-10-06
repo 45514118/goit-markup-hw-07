@@ -470,41 +470,41 @@ textarea {
   background: rgba(47, 48, 58, 0.8);
 }
 /* Our Team */
-.our-team {
+.team {
   background-color: var(--tertiary-bg-color);
 }
-.our-team-card {
+.team-card {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   width: 270px;
 }
-.our-team-list {
+.team__list {
   align-items: flex-start;
 }
-.our-team-card-footer {
+.team-card__footer {
   padding: 30px;
   text-align: center;
   background-color: var(--primary-bg-color);
 }
-.our-team-card-title {
+.team-card__title {
   font-weight: 500;
   line-height: 1.19;
   color: var(--primary-text-color);
   margin-bottom: 10px;
 }
-.our-team-card-description {
+.team-card__description {
   line-height: 1.19;
   color: var(--secondary-text-color);
   margin-bottom: auto;
 }
-.our-team-social {
+.team-social {
   margin-top: 16px;
 }
-.our-team-social-item:not(:last-child) {
+.team-social__item:not(:last-child) {
   margin-right: 10px;
 }
-.our-team-social-link {
+.team-social__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -516,8 +516,8 @@ textarea {
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
 }
-.our-team-social-link:hover,
-.our-team-social-link:focus {
+.team-social__link:hover,
+.team-social__link:focus {
   fill: var(--primary-white-color);
   background-color: var(--icon-accent-color);
 }
