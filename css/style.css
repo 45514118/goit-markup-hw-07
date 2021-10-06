@@ -522,10 +522,10 @@ textarea {
   background-color: var(--icon-accent-color);
 }
 /* Partners */
-.partners-list {
+.partners__list {
   margin-right: 30px;
 }
-.partners-link {
+.partners__link {
   width: 170px;
   height: 92px;
   border: 1px solid var(--icon-primary-color);
@@ -534,8 +534,8 @@ textarea {
   fill: var(--icon-primary-color);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.partners-link:hover,
-.partners-link:focus {
+.partners__link:hover,
+.partners__link:focus {
   border: 1px solid var(--icon-accent-color);
   fill: var(--icon-accent-color);
 }
@@ -679,13 +679,13 @@ textarea {
 .footer-contacts .footer-contacts__item:last-child {
   margin-top: 9px;
 }
-.footer-join {
+.page-footer__social-group {
   margin-left: 70px;
 }
-.footer-subcription {
+.page-footer__subcription {
   margin-left: 93px;
 }
-.footer-block-title {
+.page-footer__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -693,10 +693,10 @@ textarea {
   margin-bottom: 20px;
   color: var(--primary-white-color);
 }
-.footer-social-item:not(:last-child) {
+.footer-social__item:not(:last-child) {
   margin-right: 10px;
 }
-.footer-social-link {
+.footer-social__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -708,11 +708,11 @@ textarea {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
 }
-.footer-social-link:hover,
-.footer-social-link:focus {
+.footer-social__link:hover,
+.footer-social__link:focus {
   background-color: var(--icon-accent-color);
 }
-.footer-form-input {
+.footer-form__input {
   width: 358px;
   height: 50px;
   color: var(--secondary-white-color);
@@ -723,7 +723,7 @@ textarea {
   padding-left: 16px;
   margin-right: 12px;
 }
-.footer-form-submit {
+.footer-form__submit {
   font-weight: 700;
   line-height: 1.875;
   display: flex;
@@ -738,7 +738,7 @@ textarea {
   border-radius: 4px;
   border: 1px solid transparent;
 }
-.footer-submit-icon {
+.footer-form__icon {
   margin-left: 12px;
   fill: var(--primary-white-color);
 }
