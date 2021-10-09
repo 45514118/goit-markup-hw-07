@@ -1,0 +1,26 @@
+.partners {
+  &__list {
+    margin-right: 30px;
+  }
+  &__item {
+    margin-right: 30px;
+  }
+
+  &__item:last-child {
+    margin-right: 0;
+  }
+  &__link {
+    width: 170px;
+    height: 92px;
+    border: 1px solid $icon-primary-color;
+    border-radius: 4px;
+    justify-content: center;
+    fill: $icon-primary-color;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  &__link:hover,
+  &__link:focus {
+    border: 1px solid var(--icon-accent-color);
+    fill: var(--icon-accent-color);
+  }
+}
