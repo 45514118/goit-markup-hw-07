@@ -1,8 +1,8 @@
-@import './utils/global';
-@import './utils/normalize';
 @import './utils/variables';
-@import './utils/utils';
+@import './components//normalize';
+@import './components/global';
 @import './components/header';
+@import './components/logo';
 @import './components/nav';
 @import './components/section';
 @import './components/promo';
